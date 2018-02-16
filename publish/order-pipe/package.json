@@ -1,0 +1,23 @@
+{
+  "name": "meepo-order-pipe",
+  "version": "1.1.0",
+  "repository": "https://github.com/meepobrother/meepo-common.git",
+  "author": "imeepos <1037483576@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "git": "git add . && git commit -m 'update' && git push origin master"
+  },
+  "peerDependencies": {
+    "@angular/core": "*",
+    "rxjs": "*"
+  },
+  "main": "bundles/meepo-order-pipe.umd.js",
+  "module": "esm5/meepo-order-pipe.js",
+  "es2015": "esm2015/meepo-order-pipe.js",
+  "typings": "meepo-order-pipe.d.ts",
+  "metadata": "meepo-order-pipe.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "meepo-file-upload",
+  "version": "1.1.0",
+  "repository": "https://github.com/meepobrother/meepo-common.git",
+  "author": "imeepos <1037483576@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "*",
+    "rxjs": "*"
+  },
+  "main": "bundles/meepo-file-upload.umd.js",
+  "module": "esm5/meepo-file-upload.js",
+  "es2015": "esm2015/meepo-file-upload.js",
+  "typings": "meepo-file-upload.d.ts",
+  "metadata": "meepo-file-upload.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}

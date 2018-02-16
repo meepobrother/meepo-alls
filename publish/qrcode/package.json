@@ -1,0 +1,20 @@
+{
+  "name": "meepo-qrcode",
+  "version": "1.1.0",
+  "repository": "https://github.com/meepobrother/meepo-common.git",
+  "author": "imeepos <1037483576@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "*",
+    "rxjs": "*"
+  },
+  "main": "bundles/meepo-qrcode.umd.js",
+  "module": "esm5/meepo-qrcode.js",
+  "es2015": "esm2015/meepo-qrcode.js",
+  "typings": "meepo-qrcode.d.ts",
+  "metadata": "meepo-qrcode.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
